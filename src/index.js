@@ -28,6 +28,7 @@ function onSearch(e) {
     cleanMarkup();
   }
 }
+// console.log('hi');
 
 function procesResponse(response) {
   response.length < 2 && createCartInfo(response);
